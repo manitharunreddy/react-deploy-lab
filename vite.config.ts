@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/react-deploy-lab/",
+  // base: "/react-deploy-lab/",
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
 });
